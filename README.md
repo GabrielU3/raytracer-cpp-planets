@@ -36,14 +36,14 @@ cmake --build build/Release
 ./build/Release/inOneWeekend > imagem.ppm
 ```
 
-# Se seu sistema não conseguir abrir imagem.ppm diretamente, você pode utilizar um visualizador de imagens como o ImageMagick:
+### Se seu sistema não conseguir abrir imagem.ppm diretamente, você pode utilizar um visualizador de imagens como o ImageMagick:
 
 ```bash
 sudo apt install imagemagick
 display imagem.ppm
 ```
 
-# Você pode também converter a imagem no formato .ppm para .png
+### Você pode também converter a imagem no formato .ppm para .png
 
 ```bash
 convert imagem.ppm imagem.png
